@@ -92,7 +92,7 @@ export default function AuthPage() {
               </button>
 
               <p className="text-center text-gray-600 mt-4">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <span
                   onClick={() => setIsSignUp(true)}
                   className="text-purple-600 font-bold cursor-pointer hover:underline"
@@ -100,6 +100,7 @@ export default function AuthPage() {
                   SIGN UP
                 </span>
               </p>
+
             </>
           ) : (
             <>
