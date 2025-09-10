@@ -136,9 +136,8 @@ export default function FeedPage() {
               Hi, {username} 👋
             </p>
           )}
-
           <textarea
-            placeholder="What's on your mind?"
+            placeholder="What&apos;s on your mind?"
             value={newPost}
             onChange={(e) => setNewPost(e.target.value)}
             className="w-full p-4 border border-gray-200 rounded-2xl mb-3 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
